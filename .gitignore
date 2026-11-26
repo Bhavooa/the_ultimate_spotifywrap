@@ -1,0 +1,17 @@
+# Personal data: never commit raw exports or built databases
+data/raw/*
+!data/raw/.gitkeep
+data/*.duckdb
+data/*.duckdb.wal
+
+# Environments and deps
+.venv/
+node_modules/
+__pycache__/
+
+# Planning docs (kept out of the public repo)
+plan.md
+features.md
+
+# OS
+.DS_Store
